@@ -97,7 +97,7 @@ header
 {
     position: relative;
     width: 400px;
-    height: 400px;
+    height: 440px;
     background: transparent;
     border: 2px solid rgba(255, 255, 255, .5);
     border-radius: 20px;
@@ -108,13 +108,13 @@ header
     align-items: center;
 }
 
-.wrapper .formbox
+.wrapper .form-box
 {
     width: 100%;
     padding: 40px;
 }
 
-.formbox h2
+.form-box h2
 {
     font-size: 2em;
     color: #162938;
@@ -171,3 +171,29 @@ header
     line-height: 57px;
 }
 
+.remember-forgot
+{
+    font-size: .9em;
+    color: #162938;
+    font-weight: 500;
+    margin: -15px 0 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.remember-forgot label input
+{
+    accent-color: #162938;
+    margin-right: 3px;
+}
+
+.remember-forgot a
+{
+    color: #162938;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover
+{
+    text-decoration: underline;
+}
