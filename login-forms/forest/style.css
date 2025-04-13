@@ -8,6 +8,17 @@
     box-sizing: border-box;
 }
 
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('background.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 header
 {
     position: fixed;
@@ -18,7 +29,6 @@ header
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: red;
     z-index: 99;
 }
 
